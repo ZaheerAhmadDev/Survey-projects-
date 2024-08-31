@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 id = "title"> survey form of user</h1>
+    <br>
+    <p id ="description"> This is survey form user so that we know what our user don`t like about our website so we can improve in that area more.</p>
+</header>
+    <form id = "survey-form">
+      <label id="name-label"> Name </label>
+      </br> 
+      <input id ="name" type ="text" placeholder ="your name" name="name-form" required>
+      </br>
+      <label id="email-label"> Email </label>
+      </br>
+      <input id ="email" type ="email" placeholder ="enter your gmail " required>
+      </br>
+      <label id="number-label"> Number </label>
+      </br>
+      <input id ="number" type ="number" placeholder="number" min = "0" max = "40" required>
+  <br>
+  <select id = "dropdown" name="khan">
+   
+    <option>Enter your profession</option>
+    <option value="student ">student</option>
+    <option value="teacher">teacher</option>
+    <option value="engineer">engineer</option>
+    <option value="doctor">doctor</option>
+    </select>
+</br>
+<div class="radio-button">
+    <p>What you like about website? </p>
+    <br>
+    <label for="radio" id="radio">  
+    <input type="radio" name="radio-button" value="coding">
+    coding content </label>
+    <div class="rad-2">
+        <label for="radio" id="radio">
+            <input type="radio" name="radio-button" value="Ai-content">
+   Ai content</label>
+    </div>
+    </div>
+    <div class="checkboxes">
+        <label id="checkbox">
+        <input type="checkbox"  value="checkbox-1">
+        space content</label>
+        <div class="checkbox-2">
+            <label for="content">
+        <input type="checkbox" value="checkbox-2">
+        All content
+    </label>
+    </div>
+    </div>
+    <div class="textarea">
+        <textarea name="write comment here" id="textarea" placeholder="write comment here"></textarea>
+        <br>
+        <button id="submit" >submit</button>
+    </div>
+
+  </form>
+  </body>
+  </html>
